@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bg-container{
+    min-width:100vw;
+    min-height:100vh;
+    background-image: url("https://www.hitbullseye.com/images/school.svg");
+    background-position: center ;
+    background-size: cover;
+    display: flex;
+}
+.main-section{
+    margin:auto;
+    padding:1rem;
+    min-width:20%;
+    min-height:80vh;
+    background: white;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.logo-section{
+    padding: 2rem;
+    padding-left: 0.5rem;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    width:200px;
+    height:60px;
+}
+.content{
+    min-width:100%;  
+    line-height: 30px;
+    height: 80%;
+}
+.guess-box{
+    margin:1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+.box{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    text-align: center;
+    color: rgb(27,169,140,0.7);
+    font-size: 25px;
+}
+.info-section{
+    padding:1rem;
+}
+.btn{
+    margin:1rem 0;
+    width:100%;
+    height:40px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(27,169,140,0.8);
+    color:white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(27,169,140);
+}
